@@ -5888,7 +5888,7 @@ footer {
 .is-IE .post-thumbnail .wp-post-image {
 	min-width: auto;
 }
-/* Module 12 */
+
 .comment::after{
 	position: relative;
 }
@@ -5949,4 +5949,4 @@ footer {
 		padding: 5px;
 	}
 }
-/* End module 12 */
+
