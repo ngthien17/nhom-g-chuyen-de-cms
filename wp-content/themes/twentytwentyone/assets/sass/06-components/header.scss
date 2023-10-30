@@ -39,11 +39,11 @@
 // Site title
 .site-title {
 
-	color: var(--branding--color-link);
+	color: var(--bs-gray);
 	font-family: var(--branding--title--font-family);
 	font-size: var(--branding--title--font-size-mobile);
 	letter-spacing: normal;
-	text-transform: var(--branding--title--text-transform);
+	// text-transform: var(--branding--title--text-transform);
 	line-height: var(--global--line-height-heading);
 	margin-bottom: calc(var(--global--spacing-vertical) / 6);
 
