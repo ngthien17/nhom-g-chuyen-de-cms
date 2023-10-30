@@ -73,6 +73,30 @@ if ( have_posts() ) {
 	// If no content, include the "No posts found" template.
 	get_template_part( 'template-parts/content/content-none' );
 
-}
+}?>
 
+    <div class="recent_comments">
+        <p class="comment">Comments</p>
+        <?php
+        $args = array(
+            'number' => 3,
+            'status' => 'approve',
+            'order' => 'DESC',
+            'orderby' => 'comment_date',
+        );
+
+        $latest_comments = get_comments($args);
+        if ($latest_comments){
+            foreach ($latest_comments as $comment){
+                $comment_post_id = $comment->comment_post_ID;
+                echo '<div class="comment">';
+                $comment_post_url = get_permalink($comment_post_id); // Lấy URL của bài viết
+                echo '<p class="comment-content"><a href="'.$comment_post_url.'">'.$comment->comment_content.'</a></p>';
+                echo '</div>';
+            }
+        }
+        ?>
+    </div>
+
+<?php
 get_footer();
