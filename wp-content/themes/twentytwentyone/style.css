@@ -5934,19 +5934,35 @@ footer {
 /*	padding-bottom: 20px;*/
 /*	bottom: -240%;*/
 /*}*/
+/*.recent_comments {*/
+/*	position: static;*/
+/*	width: 100%;*/
+/*	max-width: 600px;*/
+/*	margin: 0 auto;*/
+/*	padding: 10px;*/
+/*	box-sizing: border-box;*/
+/*	background-color: white;*/
+/*}*/
+
+/*@media (max-width: 600px) {*/
+/*	.recent_comments {*/
+/*		padding: 5px;*/
+/*	}*/
+/*}*/
 .recent_comments {
 	position: static;
 	width: 100%;
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 0;
 	padding: 10px;
 	box-sizing: border-box;
 	background-color: white;
+	float: right; /* Thêm thuộc tính float để đưa nó về bên phải */
 }
 
 @media (max-width: 600px) {
 	.recent_comments {
 		padding: 5px;
+		float: none; /* Thêm thuộc tính float none để đưa về lại giá trị mặc định */
 	}
 }
-
