@@ -74,7 +74,7 @@ if ( have_posts() ) {
 	get_template_part( 'template-parts/content/content-none' );
 
 }?>
-    <!--Module 12 -->
+
     <div class="recent_comments">
         <p class="comment">Comments</p>
         <?php
@@ -97,6 +97,6 @@ if ( have_posts() ) {
         }
         ?>
     </div>
-    <!--Module 12 -->
+
 <?php
 get_footer();
