@@ -13,7 +13,9 @@
 ?>
 <div class="container-fluid">
 	<div class="row">
+		<!-- Category (Module 9) -->
 		<div class="col-md-3"></div>
+		<!-- Detail (Module 6) -->
 		<div class="col-md-6"></div>
 
 		<div class="col-md-3">
