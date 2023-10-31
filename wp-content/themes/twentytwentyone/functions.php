@@ -488,6 +488,7 @@ function enqueue_bootstrap()
 {
 	wp_enqueue_style('bootstrap-5-css', get_stylesheet_directory_uri() . '/bootstrap-5.3.2-dist/css/bootstrap.min.css', array(), '', 'all');
 	wp_enqueue_script('bootstrap-5-js', get_stylesheet_directory_uri() . '/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js', array('jquery'), null, true);
+	wp_enqueue_script('bootstrap-5-js-cdn', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js');
 }
 add_action('wp_enqueue_scripts', 'enqueue_bootstrap');
 
@@ -505,6 +506,11 @@ function enqueue_style()
 	wp_enqueue_style('style-module-15-css', get_stylesheet_directory_uri() . '/assets/css/style-module-15.css');
 }
 add_action('wp_enqueue_scripts', 'enqueue_style');
+function enqueue_scripts()
+{
+	wp_enqueue_script('app-module-1-js', get_stylesheet_directory_uri() . '/assets/js/app-module-1.js', array('jquery'), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_scripts');
 
 /**
  * Fixes skip link focus in IE11.
