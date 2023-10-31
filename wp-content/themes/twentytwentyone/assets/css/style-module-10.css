@@ -10,7 +10,7 @@
     color: var(--white);
 }
 .container-fluid.content-single{
-    margin: 0 90px;
+    margin: 90px 0;
 }
 .module-10 h2 {
     padding: 30px 15px;
