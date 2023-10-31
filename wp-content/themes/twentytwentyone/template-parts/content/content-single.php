@@ -11,7 +11,7 @@
  */
 
 ?>
-<div class="container-fluid">
+<div class="container-fluid content-single">
 	<div class="row">
 		<!-- Category (Module 9) -->
 		<div class="col-md-3"></div>
