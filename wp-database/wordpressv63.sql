@@ -105,8 +105,8 @@ CREATE TABLE `wp_options` (
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://localhost/nhom-i-chuyen-de-cms', 'yes'),
-(2, 'home', 'http://localhost/nhom-i-chuyen-de-cms', 'yes'),
+(1, 'siteurl', 'http://localhost/nhom-g-chuyen-de-cms', 'yes'),
+(2, 'home', 'http://localhost/nhom-g-chuyen-de-cms', 'yes'),
 (3, 'blogname', 'WordPress', 'yes'),
 (4, 'blogdescription', '', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
