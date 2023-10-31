@@ -32,6 +32,7 @@
 .module-10 li {
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 60px;
     margin-bottom: 5px;
 }

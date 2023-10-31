@@ -35,9 +35,6 @@
 					echo '<ul>';
 					while ($recent_posts->have_posts()) : $recent_posts->the_post();
 						// Lấy ngày tháng của bài viết
-
-
-						// Hiển thị tiêu đề bài viết và ngày tháng trong thẻ <li>
 						echo '<li>';
 						echo '<div class="headlinesdate">';
 						echo '<div class="headlinesdm">';
