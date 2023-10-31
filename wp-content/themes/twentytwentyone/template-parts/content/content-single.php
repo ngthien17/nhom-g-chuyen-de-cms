@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying posts
  *
@@ -10,8 +11,14 @@
  */
 
 ?>
+<div class="container-fluid content-single">
+	<div class="row">
+		<!-- Category (Module 9) -->
+		<div class="col-md-3"></div>
+		<!-- Detail (Module 6) -->
+		<div class="col-md-6"></div>
 
-<div class="col-md-3">
+		<div class="col-md-3">
 			<div class="module-10">
 				<?php
 				$args = array(
@@ -28,9 +35,6 @@
 					echo '<ul>';
 					while ($recent_posts->have_posts()) : $recent_posts->the_post();
 						// Lấy ngày tháng của bài viết
-
-
-						// Hiển thị tiêu đề bài viết và ngày tháng trong thẻ <li>
 						echo '<li>';
 						echo '<div class="headlinesdate">';
 						echo '<div class="headlinesdm">';
@@ -52,3 +56,5 @@
 				?>
 			</div>
 		</div>
+	</div>
+</div>
