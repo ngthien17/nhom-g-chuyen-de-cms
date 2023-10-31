@@ -5,6 +5,7 @@
   list-style-type: none;
   margin-left: var(--#{$fa-css-prefix}-li-margin, #{$fa-li-margin});
   padding-left: 0;
+  padding-top: 100px;
 
   > li { position: relative; }
 }
