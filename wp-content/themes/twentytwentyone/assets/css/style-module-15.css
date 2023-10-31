@@ -6,7 +6,9 @@
   text-decoration: none;
   color: var(--color-post-title);
 }
-
+.module-15 .timeline{
+  margin-left: 25px;
+}
 .module-15 .post-crated-at {
   color: var(--color-post-title);
 }
