@@ -140,11 +140,11 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
                     <ul class="list-unstyled list-inline social text-center">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/suminguyen3120/"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.instagram.com/nnlananh_20_3/"><i class="fa fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/trieu.hota/"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/trieu.hota/"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/trieuhota/"><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/trieu.hota/"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/trieu.hota/" target="_blank"><i class="fa fa-envelope"></i>
                             </a></li>
                     </ul>
                 </div>
