@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a9c1a4-12a9-4192-8be9-bf9505d3caa3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "12-VanAnh",
+    "git-widget-placeholder": "3-TaTrieu",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
