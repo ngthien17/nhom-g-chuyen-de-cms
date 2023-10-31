@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying posts
  *
@@ -10,6 +11,10 @@
  */
 
 ?>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6"></div>
 
 <div class="col-md-3">
 			<div class="module-10">
@@ -52,3 +57,5 @@
 				?>
 			</div>
 		</div>
+	</div>
+</div>
