@@ -14,6 +14,64 @@ get_header();
 
 if (have_posts()) {
 ?>
+    <style>
+        .module-13 {
+            border-left: 2px solid #6091ba;
+            background: #fff;
+            -moz-box-shadow: 0 0 5px 0 #e8e8e8;
+            box-shadow: 0 0 5px 0 #e8e8e8;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+            border-radius: 0;
+            background-clip: padding-box;
+            padding: 15px;
+            border: none;
+            /* đường thẳng bên trái */
+            border-left: 2px solid #6091ba;
+            margin-bottom: 30px;
+            margin-left: 12px;
+        }
+
+        .module-13 h2 {
+            font-size: 24px;
+            font-weight: 400;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #337ab7;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e5e9;
+            margin-bottom: 25px;
+        }
+
+        .module-13 h4 {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        ;
+            font-weight: 500;
+            line-height: 1.1;
+            color: inherit;
+            font-size: 16px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .module-13 hr {
+            border: 0;
+            border-top: 2px solid #999eab;
+            margin: 0;
+            width: 45px;
+            margin-bottom: 10px;
+            opacity: 1;
+        }
+
+        .module-13 img {
+            width: 100%;
+            height: auto;
+        }
+
+        .module-13 p {
+            font-size: 14px;
+        }
+    </style>
 	<header class="page-header alignwide">
 		<h1 class="page-title">
 			<?php
@@ -96,6 +154,39 @@ if (have_posts()) {
 			?>
 		</ul>
 	</div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="module-13">
+                <h2>Trang mới nhất</h2>
+                <?php
+                $args = array(
+                    'post_type' => 'page',
+                    'posts_per_page' => 3,
+                    // trang mới nhất sẽ hiển thị trước.
+                    'order' => 'DESC',
+                    'orderby' => 'date',
+                );
+                $query = new WP_Query($args);
+                if ($query->have_posts()) {
+                    while ($query->have_posts()) {
+                        $query->the_post();
+                        $title = get_the_title();
+                        $content = wp_trim_words(get_the_content(), 30); // Giới hạn nội dung 30 từ
+                        $thumbnail = get_the_post_thumbnail(get_the_ID()); // Lấy ảnh đại diện nhỏ
+
+                        // Hiển thị thông tin trang
+                        echo '<h4>' . $title . '</h4>';
+                        echo '<hr>';
+                        echo $thumbnail; // Hiển thị ảnh đại diện
+                        echo '<p>' . $content . '</p>';
+                    }
+                    wp_reset_postdata();
+                }
+                ?>
+            </div>
+        </div>
+        <!-- module 13 (pages) -->
+    </div>
 	<?php
 
 	get_footer();
