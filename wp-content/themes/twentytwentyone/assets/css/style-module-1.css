@@ -187,6 +187,11 @@ a {
     padding: 15px;
 }
 
+.nav-item {
+    margin: 5px 0;
+    padding: 0 15px;
+}
+
 .site-header .site-title {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #777;
@@ -268,4 +273,27 @@ a {
 
 .site-header .dropdown-menu .dropdown-item {
     padding: 3px 20px;
+}
+
+@media only screen and (max-width:991px) {
+    .navbar-nav.menu-nav {
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+
+    .navbar-nav .primary-navigation {
+        right: 100%;
+        transform: translateX(100%);
+        padding-left: 5px;
+    }
+}
+
+@media only screen and (max-width:482px) {
+    .navbar-nav .primary-navigation {
+        right: 0;
+        top: 0;
+        transform: translateX(0);
+
+    }
+
 }

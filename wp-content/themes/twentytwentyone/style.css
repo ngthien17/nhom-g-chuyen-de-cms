@@ -4518,7 +4518,7 @@ h1.page-title {
 .menu-button-container {
 	display: none;
 	justify-content: space-between;
-	position: absolute;
+	position: relative;
 	right: 0;
 	padding-top: calc(0.5 * var(--global--spacing-vertical));
 	padding-bottom: calc(0.25 * var(--global--spacing-vertical));
@@ -4583,7 +4583,7 @@ h1.page-title {
 }
 
 .primary-navigation {
-	position: absolute;
+	position: relative;
 	top: var(--global--admin-bar--height);
 	right: 0;
 	color: var(--primary-nav--color-text);
