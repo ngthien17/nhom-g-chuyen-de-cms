@@ -17,6 +17,10 @@ $wrapper_classes .= has_nav_menu('primary') ? ' has-menu' : '';
 <header id="masthead" class="<?php echo esc_attr($wrapper_classes); ?>">
 	<nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
 		<?php get_template_part('template-parts/header/site-branding'); ?>
+ <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-nav">
 			<li class="nav-item">
 				<a class="menu-button dropdown-toggle active" href="." <?php if (is_home()) {
@@ -64,5 +68,6 @@ $wrapper_classes .= has_nav_menu('primary') ? ' has-menu' : '';
 				</li>
 			</div>
 		</ul>
+    </div>
 	</nav>
 </header><!-- #masthead -->
