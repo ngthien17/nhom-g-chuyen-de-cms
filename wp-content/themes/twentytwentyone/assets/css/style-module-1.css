@@ -192,6 +192,7 @@ a {
     color: #777;
     font-size: 18px;
     margin-bottom: 0;
+    width: max-content;
 }
 
 .site-header .site-title a {

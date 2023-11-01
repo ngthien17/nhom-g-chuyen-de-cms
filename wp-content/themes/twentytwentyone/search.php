@@ -96,6 +96,6 @@ if (have_posts()) {
 			?>
 		</ul>
 	</div>
-	<?php
 
 	get_footer();
+

@@ -17,7 +17,6 @@ $wrapper_classes .= has_nav_menu('primary') ? ' has-menu' : '';
 <header id="masthead" class="<?php echo esc_attr($wrapper_classes); ?>">
 	<nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
 		<?php get_template_part('template-parts/header/site-branding'); ?>
-
 		<ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-nav">
 			<li class="nav-item">
 				<a class="menu-button dropdown-toggle active" href="." <?php if (is_home()) {
@@ -36,18 +35,15 @@ $wrapper_classes .= has_nav_menu('primary') ? ' has-menu' : '';
 					<i class="fa-solid fa-ellipsis"></i>
 					<span>Menu</span>
 				</a>
-
 				<a class="menu-button" id="searchButton" href="<?php echo get_search_link(); ?>">
 					<i class="fa fa-search" aria-hidden="true"></i>
 					<span>Search</span>
 				</a>
-
 				<li class="nav-item">
 					<div class="dropdown">
 						<a class="dropdown-toggle menu-button" id="accountDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
 							<i class="fa fa-user-circle-o"></i>
 							<span>Account
-
 								<span class="caret"></span>
 							</span>
 						</a>
@@ -68,6 +64,5 @@ $wrapper_classes .= has_nav_menu('primary') ? ' has-menu' : '';
 				</li>
 			</div>
 		</ul>
-
 	</nav>
 </header><!-- #masthead -->
