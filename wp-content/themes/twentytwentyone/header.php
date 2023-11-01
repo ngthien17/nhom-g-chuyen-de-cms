@@ -92,7 +92,7 @@
                             <div class="col-md-9 col-xs-9 shortdesc">
                                 <h1>
                                     <a href="http://fit.tdc.edu.vn/tin-tuc/livestream-cong-nghe-thong-tin-thoi-dai-gen-z">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</a>
-                                <p>aaaaaaaaaaaa<a href="http://fit.tdc.edu.vn/tin-tuc/livestream-cong-nghe-thong-tin-thoi-dai-gen-z"></a></p></h1>
+                                <p>aaaaaaaaaaaaaaaaaaaa<a href="http://fit.tdc.edu.vn/tin-tuc/livestream-cong-nghe-thong-tin-thoi-dai-gen-z"></a></p></h1>
                             </div>
 
                         </div>
